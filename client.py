@@ -8,6 +8,8 @@ sock.connect(('10.38.165.12', 9090))
 #msg = input()
 msg = "Hi!"
 msg2 = "bye"
+client = "dasha"
+
 sock.send(msg.encode())
 
 data = sock.recv(1024)
