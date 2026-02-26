@@ -1,3 +1,8 @@
+"""
+Utility functions for echo server.
+Provides logging and validation helpers.
+"""
+
 import datetime
 
 def log_message(message: str) -> str:
