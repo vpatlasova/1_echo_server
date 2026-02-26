@@ -9,7 +9,7 @@ sock.connect(('10.38.165.12', 9090))
 msg = "Hi!"
 msg2 = "bye"
 client = "dasha"
-
+msg_list = ["How are you?", "Harry Potter", "Movies"]
 sock.send(msg.encode())
 
 data = sock.recv(1024)
